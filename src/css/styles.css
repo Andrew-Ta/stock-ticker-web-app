@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:snow;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+p {
+    font-weight: bold;
+}
+
+.ticker {
+    color: darkgreen;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.info {
+    color: darkred;
+}
+
+header {
+    background-color: slategrey;
+    padding: 2rem;
+}
+
+.form,
+.display {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.display {
+    text-align: center;
+}
+
+.inner-form {
+    background-color: slategrey;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.inner-form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.inner-form input {
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.15rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+.inner-form input:focus {
+    text-decoration: none;
+}
+
+.inner-form button {
+    padding: 0.15rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+.inner-form button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
