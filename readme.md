@@ -16,7 +16,7 @@ To use this app, you must use the terminal and type "npm install" (no quotations
 
 Then, once the dependencies are installed, type in "npm run build".
 
-then, open the link to the server (ex. http://localhost:1234)
+To run the program in development, type "npm run dev" in the terminal. then, open the link to the server (ex. http://localhost:1234).
 
 ## Dependencies
 
